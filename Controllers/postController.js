@@ -142,6 +142,8 @@ const showProfileOnDashboardClick=async(req,res)=>{
     const allData = await post.find({ id: _id });
     const userExist=await User.findById({_id:_id})
     console.log(userExist)
+    userExist.imageUrl;
+    userExist.coverImageUrl;
     // res.send(allData);
 
   }catch(e)

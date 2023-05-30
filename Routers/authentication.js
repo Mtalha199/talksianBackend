@@ -7,7 +7,7 @@ const PagesController=require("../Controllers/PagesController")
 
 const router=express.Router();
 
-
+                    
     router.post('/signup',registrationController.signup)
 
     router.post("/login",registrationController.login)
